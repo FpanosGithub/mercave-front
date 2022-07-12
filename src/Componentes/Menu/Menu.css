@@ -1,0 +1,12 @@
+a {
+  display: block;
+  color: rgb(80, 45, 45);
+  text-align: center;
+  text-decoration: none;
+}
+a.active {color: #04AA6D;}
+
+@media screen and (max-width: 900px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
